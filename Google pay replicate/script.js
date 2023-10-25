@@ -36,7 +36,7 @@ function paymentProcess(name, amountpaid) {
       })
       .catch((data) => {
         result.innerHTML = `
-        <img src="./fail.png" alt="">
+        <img src="https://github.com/Mayankkatheriya/Google_pay_Payment/blob/main/fail.png?raw=true" alt="">
         <h1 class="paid-amount">₹${data.amount}</h1>
         <h3 class="status">Payment Failed</h3>
         <p class = transaction>Transaction ID: <span class="id">${
