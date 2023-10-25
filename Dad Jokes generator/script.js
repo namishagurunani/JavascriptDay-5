@@ -15,7 +15,7 @@ async function getJoke() {
   try {
     setTimeout(async () => {
       let data = await fetch(
-        "https://api.api-ninjas.com/v1/dadjokes?limit=1",
+        "https://api.api-ninjas.com/v1/dadjokes?limit=8",
         options
       );
       res = await data.json();
