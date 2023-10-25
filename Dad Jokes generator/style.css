@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./yellow-comic-background-retro-vector-illustration_1142-11148.avif");
+  background-image: linear-gradient(pink,blue);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
