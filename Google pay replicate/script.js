@@ -23,7 +23,7 @@ function paymentProcess(name, amountpaid) {
     promise
       .then((data) => {
         result.innerHTML = `
-            <img src="https://github.com/Mayankkatheriya/Google_pay_Payment/blob/main/success.png?raw=true" alt="">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Qq0Ov_N_BiXjTfZA3EriXQHaHa&pid=Api&P=0&h=180" alt="">
             <h1 class="paid-amount">₹${data.amount}</h1>
             <h3 class="status">Payment Success</h3>
             <p class = transaction>Transaction ID: <span class="id">${
@@ -36,7 +36,7 @@ function paymentProcess(name, amountpaid) {
       })
       .catch((data) => {
         result.innerHTML = `
-        <img src="https://github.com/Mayankkatheriya/Google_pay_Payment/blob/main/fail.png?raw=true" alt="">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.PDPI4yHBXGxa5vPeNbG8MwHaHa&pid=Api&P=0&h=180" alt="">
         <h1 class="paid-amount">₹${data.amount}</h1>
         <h3 class="status">Payment Failed</h3>
         <p class = transaction>Transaction ID: <span class="id">${
