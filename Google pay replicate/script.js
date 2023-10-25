@@ -23,7 +23,7 @@ function paymentProcess(name, amountpaid) {
     promise
       .then((data) => {
         result.innerHTML = `
-            <img src="./success.png" alt="">
+            <img src="https://github.com/Mayankkatheriya/Google_pay_Payment/blob/main/success.png?raw=true" alt="">
             <h1 class="paid-amount">₹${data.amount}</h1>
             <h3 class="status">Payment Success</h3>
             <p class = transaction>Transaction ID: <span class="id">${
