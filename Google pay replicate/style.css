@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #72d2ff;
-  background-image: url(https://media.istockphoto.com/id/1420039843/photo/cloud-computing-backup-cyber-security-fingerprint-identity-encryption-technology.jpg?s=2048x2048&w=is&k=20&c=GFD9OS1LFOvjEyqPvXCA_ueQxSQSBMilnF-zZpPG4IQ=);
+  background-image: url(https://media.istockphoto.com/id/1017193718/photo/abstract-background-of-spheres-and-wire-frame-landscape.jpg?s=612x612&w=0&k=20&c=A6l0l--rsaJyJVHjcxRJYR6kMMr1CLycCBq3QHMZHY4=);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,6 +158,7 @@ button:active {
 .nav img {
   width: 100px;
   height: 70px;
+  padding: 9px;
 }
 .nav i {
   font-size: 1.8rem;

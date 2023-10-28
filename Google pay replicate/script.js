@@ -23,7 +23,7 @@ function paymentProcess(name, amountpaid) {
     promise
       .then((data) => {
         result.innerHTML = `
-            <img src="https://tse4.mm.bing.net/th?id=OIP.Qq0Ov_N_BiXjTfZA3EriXQHaHa&pid=Api&P=0&h=180" alt="">
+            <img src="https://img.icons8.com/?size=48&id=2sZ0sdlG9kWP&format=png" height = "200px" alt="">
             <h1 class="paid-amount">₹${data.amount}</h1>
             <h3 class="status">Payment Success</h3>
             <p class = transaction>Transaction ID: <span class="id">${
@@ -36,7 +36,7 @@ function paymentProcess(name, amountpaid) {
       })
       .catch((data) => {
         result.innerHTML = `
-        <img src="https://tse4.mm.bing.net/th?id=OIP.PDPI4yHBXGxa5vPeNbG8MwHaHa&pid=Api&P=0&h=180" alt="">
+        <img src="https://img.icons8.com/?size=48&id=63690&format=png" alt="">
         <h1 class="paid-amount">₹${data.amount}</h1>
         <h3 class="status">Payment Failed</h3>
         <p class = transaction>Transaction ID: <span class="id">${
